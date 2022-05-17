@@ -1,0 +1,32 @@
+/* BEGIN s-pagination-1 */
+.s-pagination-1 {
+    padding: 10px 0;
+    font-size: 13px;
+}
+.s-pagination-1::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.s-pagination-1>li {
+    display: inline-block;
+    margin: 0 2px;
+    line-height: 2.334em;
+    width: 2.5em;
+    height: 2.5em;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.s-pagination-1>li>a, .s-pagination-1>li>span {
+    display: block;
+    color: #999;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+.s-pagination-1>li.active>a, .s-pagination-1>li.active>span, .s-pagination-1>li:hover>a, .s-pagination-1>li:hover>span {
+    color: #006DFF;
+    cursor: pointer;
+}
+/* END s-pagination-1 */
